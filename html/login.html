@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MobiKart-Login page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/logo1.png" type="image/icontype">
+    <meta name="description" content="Login-MobiKart">
+    <meta name="keywords" content="html, css ,javascript , php amd mysql">
+    <meta name="author" content="Kanivan.S 2020115039">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    	  <link rel="icon" href="../images/logo1.png" type="image/icontype">
+
+</head>
+<body>
+	
+	<div class="whole-box">
+
+		<div class="side-box">
+			<div class="side-box-text">
+				<h1>Welcome back!</h1>
+				<h4>Get access to your Orders, Wishlist and Recommendations</h4>
+			</div>
+			<div class="side-box-img"><img src="../images/logo.png" alt="MobiKart's-logo"> </div>
+		</div>
+		<div class="login-box">
+			<form method="post"  action="../index.php"  onsubmit="return loginvalidation()">
+			<h1>Login</h1>
+			
+			<label>Email</label><br>
+			<input type="email" name="loginemail" class="input" id="entryemail" required><br>
+			<label>Password</label><br>
+			<input type="password" name="loginpassword" required class="input" id="entrypswd" placeholder="Atleast 6 characters"><br>
+			<input type="checkbox" name="policyaccept"  required="" class="input"><label id="policyaccept">Accepting the MobiKart's <a href="termspolicy.html" target="_blank">Terms and privacy policies</a></label><br>
+			<input type="submit" name="login_submit" class="btn-disabled" id="login_btn"  disabled="" value="Login">
+			<p id="tosignuppage">Need an account? <a href="signup.html">Sign up</a> </p>
+
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/loginform.js"></script>
+
+</body>
+</html>

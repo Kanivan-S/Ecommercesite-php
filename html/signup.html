@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MobiKart-Sign up page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/logo1.png" type="image/icontype">
+    <meta name="description" content="Sign up -MobiKart">
+    <meta name="keywords" content="html, css ,javascript , php amd mysql">
+    <meta name="author" content="Kanivan.S 2020115039">
+    	  <link rel="icon" href="../images/logo1.png" type="image/icontype">
+
+    <link rel="stylesheet" type="text/css" href="../css/signup.css">
+</head>
+<body>
+	
+	<div class="whole-box">
+
+		<div class="side-box">
+			<div class="side-box-text">
+				<h1>Look's like you're new here!</h1>
+				<h4>Sign up with your email to get started</h4>
+			</div>
+			<div class="side-box-img"><img src="../images/logo.png" alt="MobiKart's-logo"> </div>
+		</div>
+		<div class="signup-box">
+			<form method="post" action="../index.php"  onsubmit="return signupvalidation()">			
+			<h1>Create account</h1>
+			<label>Your name</label><br>
+			<input type="text" name="username" class="input_username" placeholder="Atleast 6 characters" required=""><br>
+			<label>Email</label><br>
+			<input type="email" name="useremail" class="input_email" required=""><br>
+			<label>Password</label><br>
+			<input type="password" name="userpassword" class="input_pswd" placeholder="Atleast 6 characters"><br>
+			<label>Confirm Password</label><br>
+			<input type="password" name="retypeuserpassword" class="input_repswd" placeholder="Atleast 6 characters"><br>
+			<input type="checkbox" name="policyaccept"  required=""><label id="policyaccept">Accepting the MobiKart's <a href="termspolicy.html" target="_blank">Terms and privacy policies</a></label><br>
+			<input type="submit" name="signup_submit" id='signup_btn' class="btn-disabled" disabled="" value="Sign up">
+			<p id="tologinpage">Already have an account? <a href="login.html">Login in</a> </p>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/signupform.js"></script>
+
+</body>
+</html>

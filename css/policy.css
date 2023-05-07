@@ -1,0 +1,9 @@
+.content{
+	margin: 0 8em;
+	border: 2px solid #fff;
+	background-color: #fff;
+	padding: 2em;
+}
+.content .heading{
+	text-align: center;
+}

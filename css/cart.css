@@ -1,0 +1,111 @@
+.maincart-box{
+            display: flex;
+            flex-direction: row;
+        }
+        .leftcart-box{
+            display: flex;
+            width: 60%;
+            flex-direction: column;
+            border: 2px solid #cfcfcf;
+            background-color: #ffff;
+
+        }
+        img{
+            width: 20%;
+/*          object-fit: fit;
+*/      }
+        
+        .cart-eachimg{
+            width: 50%;
+        }
+        .eachproduct-cart{
+            display: inline-flex;
+            flex-direction: row;
+            border-bottom: 2px solid #cfcfcf;
+        }
+        .rightcart-box{
+            display: flex;
+            width: 40%;
+            margin-right: auto;
+            justify-content: center;
+            text-align: center;
+        }
+        .rightcart-box table{
+                        background-color: #ffff;
+
+            border: 2px solid black;
+        }
+        .rightcart-box table,tr,td,th{
+            border-collapse: collapse;
+            padding: 2em;
+            border: 2px solid black;
+        }
+        .plbtn{
+            background-color:#fb641b;
+            color: #ffff;
+            padding: 1em 2em;
+            display: inline-block;
+            float: right;
+            text-decoration: none;
+        }
+         .clbtn{
+            background-color:#fb641b;
+            color: #ffff;
+            padding: 1em 2em;
+            display: inline-block;
+            float: left;
+            text-decoration: none;
+        }
+        
+        .plbtn-box{
+            padding: .5em .3em .5em 2em;
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+            background-color: #ffff;
+        }
+#math-btn{
+    background-color: #e0e0e0;
+    color: black;
+    padding: .5em;
+    margin: 0 .3em;
+    border-radius: 100%;
+    text-decoration: none;
+}
+#math-btn:hover{
+    opacity: 0.7;
+}
+#math-display{
+    background-color: #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: .5em;
+}
+#rev{
+    color: black;
+    text-decoration: none;
+
+}
+#rev:hover{
+    color: #2874f0;
+    text-decoration: underline;
+}
+#noitems{
+    color: #fb641b;
+    text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+}
+#pricehead{
+    background-color: #fb641b;
+    text-align: center;
+    color: #ffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+#remove{
+    color: black;
+    text-decoration: none;
+}
+#remove:hover{
+    color:#fb641b ;
+    text-decoration: underline;
+}

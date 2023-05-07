@@ -1,0 +1,36 @@
+ #addcart{
+	background-color: #fb641b;
+
+}
+
+.eachproductbtns #buynow{
+	background-color: #fb641b;
+
+}
+.eachproductbtns a:hover{
+	transform: scale(1.1);
+}
+.main-container .right-container{
+	flex-basis: 60%;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	border: 2px solid blue;
+}
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: 2em;
+}
+#Specifications{
+	border-bottom: 2px solid blue;
+	text-align: center;
+}
+tr,th{
+
+	text-align: left;
+	padding:.5em 2em;
+}
+*{
+  font-family:cursive;
+}
